@@ -123,6 +123,7 @@ const NFTStackedCard: FC<NFTCardProps> = ({
     // Maximum 5 stack images
     const images = sources?.slice(0, 5).map((src, index) => (
       <StackImage
+        key={index.toString(36)}
         total={sources.length}
         src={src}
         index={index}
