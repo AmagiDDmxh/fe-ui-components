@@ -6,9 +6,12 @@
   "homepage": "https://github.com/onekeyhq/fe-ui-components",
   "description": "OneKey FE UI Components.",
   "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "repository": {
     "type": "git",
-    "url": "git://github.com/onekeyhq/fe-ui-components.git"
+    "url": "git://git@github.com/amagiddmxh/fe-ui-components.git"
   },
   "bugs": {
     "url": "https://github.com/onekeyhq/fe-ui-components/issues"
@@ -28,9 +31,6 @@
     "storybook": "TAILWIND_MODE=watch start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public",
     "type-check": "tsc --noEmit"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
   },
   "eslintConfig": {
     "extends": [
